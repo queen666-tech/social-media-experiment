@@ -1,0 +1,362 @@
+[
+  {
+    "id": "P02-1",
+    "category": "Pets",
+    "author": "reef_corner",
+    "title": "A calm aquarium view",
+    "text": "Bright fish and coral made this tank look amazing today.",
+    "image": "assets/images/pet_post_01.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P02-4",
+    "category": "Technology",
+    "author": "robot_home_daily",
+    "title": "Two robot vacuums",
+    "text": "Both robot vacuums are back at their charging docks.",
+    "image": "assets/images/post_08.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P05-2",
+    "category": "Sports",
+    "author": "courtvision23",
+    "title": "LeBron on the move",
+    "text": "LeBron bringing the ball up for the Lakers. Always fun to watch.",
+    "image": "assets/images/post_18.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P06-3",
+    "category": "Food",
+    "author": "noodle_nights",
+    "title": "A warm bowl of ramen",
+    "text": "Ramen with a soft-boiled egg and greens. Perfect for a cold evening.",
+    "image": "assets/images/post_23.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P08-4",
+    "category": "Travel",
+    "author": "coast_walks",
+    "title": "Seven Sisters by the sea",
+    "text": "White cliffs, green hills and a beautiful blue sea.",
+    "image": "assets/images/post_32.webp",
+    "experiment_role": "exposure_only"
+  },
+  {
+    "id": "P09-3",
+    "category": "Education",
+    "author": "library_study_time",
+    "title": "Studying at the library",
+    "text": "Working on my slides in this beautiful library.",
+    "image": "assets/images/post_35.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P02-2",
+    "category": "Pets",
+    "author": "whisker_closeup",
+    "title": "Those eyes though",
+    "text": "This cat got so close to the camera and looked adorable.",
+    "image": "assets/images/pet_post_02.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P03-1",
+    "category": "Technology",
+    "author": "gadget_snapshots",
+    "title": "Headphones and a monkey",
+    "text": "A monkey in a bow tie holding a headphone box. What a photo!",
+    "image": "assets/images/post_09.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P04-3",
+    "category": "Sports",
+    "author": "matchday_view",
+    "title": "Big moment in the box",
+    "text": "A tense header during a football match. Everyone was watching that ball.",
+    "image": "assets/images/post_15.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P07-1",
+    "category": "Food",
+    "author": "coffee_breaks",
+    "title": "Coffee break for two",
+    "text": "A latte and a black coffee. Just what we needed this morning.",
+    "image": "assets/images/post_25.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P09-1",
+    "category": "Travel",
+    "author": "canal_travels",
+    "title": "A sunny day in Venice",
+    "text": "Boats on the canal and beautiful old buildings everywhere.",
+    "image": "assets/images/post_33.webp",
+    "experiment_role": "exposure_only"
+  },
+  {
+    "id": "P09-4",
+    "category": "Education",
+    "author": "paperwork_mountain",
+    "title": "So much paperwork",
+    "text": "This stack of papers just keeps getting taller.",
+    "image": "assets/images/post_36.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P02-3",
+    "category": "Pets",
+    "author": "snowpaw_diary",
+    "title": "Vet visit went well",
+    "text": "This fluffy dog stayed so calm during the checkup.",
+    "image": "assets/images/pet_post_03.webp",
+    "experiment_role": "exposure_only"
+  },
+  {
+    "id": "P03-2",
+    "category": "Technology",
+    "author": "phone_restart",
+    "title": "Phone starting up",
+    "text": "Waiting for the Apple logo to disappear so my phone can start.",
+    "image": "assets/images/post_10.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P05-3",
+    "category": "Sports",
+    "author": "baseline_rally",
+    "title": "Backhand on court",
+    "text": "A clean backhand during a tennis session. Great focus and timing.",
+    "image": "assets/images/post_19.webp",
+    "experiment_role": "exposure_only"
+  },
+  {
+    "id": "P06-2",
+    "category": "Food",
+    "author": "pan_and_plate",
+    "title": "Steak for dinner",
+    "text": "Sliced the steak after cooking. The middle stayed pink, just how I like it.",
+    "image": "assets/images/post_22.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P08-3",
+    "category": "Travel",
+    "author": "hiking_weekends",
+    "title": "A stop above the lake",
+    "text": "Stopped on the hill to take in this peaceful lake view.",
+    "image": "assets/images/post_31.webp",
+    "experiment_role": "exposure_only"
+  },
+  {
+    "id": "P10-1",
+    "category": "Education",
+    "author": "campus_autumn_walk",
+    "title": "Autumn on campus",
+    "text": "The orange leaves make campus look amazing today.",
+    "image": "assets/images/post_37.webp",
+    "experiment_role": "exposure_only"
+  },
+  {
+    "id": "P02-5",
+    "category": "Pets",
+    "author": "bunny_snacks",
+    "title": "Small bunny snack time",
+    "text": "This little bunny looked extra cute while nibbling a carrot.",
+    "image": "assets/images/pet_post_05.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P03-3",
+    "category": "Technology",
+    "author": "laptop_detail",
+    "title": "A simple laptop design",
+    "text": "I really like the clean Apple logo on this laptop.",
+    "image": "assets/images/post_11.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P05-1",
+    "category": "Sports",
+    "author": "runpath_morning",
+    "title": "Morning run by the trees",
+    "text": "A quiet run along the path this morning. The autumn light looked amazing.",
+    "image": "assets/images/post_17.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P07-2",
+    "category": "Food",
+    "author": "dimsum_diary",
+    "title": "Dim sum for lunch",
+    "text": "Tried some siu mai with dipping sauce. Simple and delicious.",
+    "image": "assets/images/post_26.webp",
+    "experiment_role": "exposure_only"
+  },
+  {
+    "id": "P08-1",
+    "category": "Travel",
+    "author": "london_wander",
+    "title": "Tower Bridge at sunset",
+    "text": "The bridge lights came on as the sky turned pink.",
+    "image": "assets/images/post_29.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P10-2",
+    "category": "Education",
+    "author": "research_graphs",
+    "title": "Making sense of the data",
+    "text": "Still figuring out this colourful 3D research graph.",
+    "image": "assets/images/post_38.webp",
+    "experiment_role": "exposure_only"
+  },
+  {
+    "id": "P02-6",
+    "category": "Pets",
+    "author": "frisbee_buddy",
+    "title": "Ready to play",
+    "text": "This white dog would not let go of the frisbee.",
+    "image": "assets/images/pet_post_06.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P03-4",
+    "category": "Technology",
+    "author": "vr_moments",
+    "title": "Trying a VR headset",
+    "text": "Using a VR headset with handheld controllers. Looks fun!",
+    "image": "assets/images/post_12.webp",
+    "experiment_role": "exposure_only"
+  },
+  {
+    "id": "P05-4",
+    "category": "Sports",
+    "author": "roadride_journal",
+    "title": "Cycling into the hills",
+    "text": "A long ride on an open road with mountain views ahead.",
+    "image": "assets/images/post_20.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P06-4",
+    "category": "Food",
+    "author": "sweet_slice",
+    "title": "Cheesecake with cherry topping",
+    "text": "Had a slice of cheesecake topped with cherries today. So good.",
+    "image": "assets/images/post_24.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P08-2",
+    "category": "Travel",
+    "author": "edinburgh_evenings",
+    "title": "Edinburgh after dark",
+    "text": "The busy street and city lights looked lovely tonight.",
+    "image": "assets/images/post_30.webp",
+    "experiment_role": "old"
+  },
+  {
+    "id": "P10-3",
+    "category": "Education",
+    "author": "handwritten_revision",
+    "title": "Notes for revision",
+    "text": "Spent the afternoon writing up my physics notes.",
+    "image": "assets/images/post_39.webp",
+    "experiment_role": "exposure_only"
+  },
+  {
+    "id": "P02-4-PET",
+    "category": "Pets",
+    "author": "latewalk_moments",
+    "title": "Night walk helper",
+    "text": "A tiny cat on a leash and a power strip made this walk unforgettable.",
+    "image": "assets/images/pet_post_04.webp",
+    "experiment_role": "new"
+  },
+  {
+    "id": "P02-7",
+    "category": "Pets",
+    "author": "doubleloaf_daily",
+    "title": "Two cats one chair",
+    "text": "These two cats fit perfectly on one small chair.",
+    "image": "assets/images/pet_post_07.webp",
+    "experiment_role": "new"
+  },
+  {
+    "id": "P04-1",
+    "category": "Technology",
+    "author": "desk_tech",
+    "title": "Smart speaker on my desk",
+    "text": "A small white smart speaker fits nicely on this shelf.",
+    "image": "assets/images/post_13.webp",
+    "experiment_role": "new"
+  },
+  {
+    "id": "P04-2",
+    "category": "Technology",
+    "author": "game_night_log",
+    "title": "Gaming with a controller",
+    "text": "A driving game on the laptop with a controller in hand.",
+    "image": "assets/images/post_14.webp",
+    "experiment_role": "new"
+  },
+  {
+    "id": "P04-4",
+    "category": "Sports",
+    "author": "liftlog_daily",
+    "title": "Back in the gym",
+    "text": "Training session with a weight plate today. Feeling strong again.",
+    "image": "assets/images/post_16.webp",
+    "experiment_role": "new"
+  },
+  {
+    "id": "P06-1",
+    "category": "Sports",
+    "author": "stadium_stories",
+    "title": "What a stadium view",
+    "text": "The crowd display looked incredible before the match even started.",
+    "image": "assets/images/post_21.webp",
+    "experiment_role": "new"
+  },
+  {
+    "id": "P07-3",
+    "category": "Food",
+    "author": "lunch_bowl",
+    "title": "Today’s lunch bowl",
+    "text": "Chicken, avocado, greens and pomegranate in one bowl. Fresh and filling.",
+    "image": "assets/images/post_27.webp",
+    "experiment_role": "new"
+  },
+  {
+    "id": "P07-4",
+    "category": "Food",
+    "author": "market_bites",
+    "title": "Street food market finds",
+    "text": "So many hot dishes at the market today. Hard to choose just one.",
+    "image": "assets/images/post_28.webp",
+    "experiment_role": "new"
+  },
+  {
+    "id": "P09-2",
+    "category": "Travel",
+    "author": "barcelona_views",
+    "title": "Barcelona from above",
+    "text": "The Sagrada Família stands out across the city skyline.",
+    "image": "assets/images/post_34.webp",
+    "experiment_role": "new"
+  },
+  {
+    "id": "P10-4",
+    "category": "Education",
+    "author": "unexpected_study_buddy",
+    "title": "My study buddy",
+    "text": "Headphones on, pen ready. This monkey looks focused!",
+    "image": "assets/images/post_40.webp",
+    "experiment_role": "new"
+  }
+]

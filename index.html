@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Mobile-friendly social feed research experiment">
+  <title>Social Media Experiment</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="page-layout">
+    <aside class="sidebar" aria-label="Study steps">
+      <div class="sidebar-label">STUDY STEPS</div>
+      <div class="step active" data-step="setup"><span>01</span> Start</div>
+      <div class="step" data-step="feed"><span>02</span> Browse posts</div>
+      <div class="step" data-step="stroop"><span>03</span> Colour task</div>
+      <div class="step" data-step="memory"><span>04</span> Memory test</div>
+      <div class="step" data-step="result"><span>05</span> Results</div>
+      <div class="sidebar-line"></div>
+      <p>30 feed posts</p>
+      <p>60-second colour task</p>
+      <p>30 memory questions</p>
+    </aside>
+    <main id="app" class="main" aria-live="polite"></main>
+  </div>
+  <div id="toast" class="toast" role="alert" aria-live="assertive"></div>
+</body>
+</html>
