@@ -329,12 +329,10 @@ function renderResult() {
       <div class="result-tile"><strong>${r.memory_incorrect}</strong><span>Incorrect / 30</span></div>
     </div>
     <div class="result-details">
-      <div><span>Hits (old posts correctly recognised)</span><strong>${r.hits} / 20</strong></div>
-      <div><span>False alarms (new posts marked Old)</span><strong>${r.false_alarms} / 10</strong></div>
-      <div><span>Recognition score (d-prime)</span><strong>${r.d_prime.toFixed(2)}</strong></div>
-      <div><span>Browsing time</span><strong>${formatDuration(r.browsing_seconds)}</strong></div>
+      <div class="result-detail-row"><span class="result-detail-label">Hits (old posts correctly recognised)</span><strong class="result-detail-value">${r.hits} / 20</strong></div>
+      <div class="result-detail-row"><span class="result-detail-label">False alarms (new posts marked Old)</span><strong class="result-detail-value">${r.false_alarms} / 10</strong></div>
+      <div class="result-detail-row"><span class="result-detail-label">Browsing time</span><strong class="result-detail-value">${formatDuration(r.browsing_seconds)}</strong></div>
     </div>
-    <p class="help">Your results are calculated on this device. They are <strong>not uploaded</strong> or sent automatically. Save the image below and send it to the research team privately.</p>
     <button type="button" class="primary save-btn" id="save-image">Save Result as Image (PNG)</button>
     <div class="preview-box" id="preview-box" hidden>
       <p><strong>Result image ready.</strong> If your phone did not download the PNG, press and hold the image below to save it to Photos. You can also take a screenshot.</p>
@@ -354,9 +352,9 @@ function renderResult() {
 
 // Draw the score card with the built-in Canvas API; no CDN or external package.
 function createResultPng(r) {
-  const canvas=document.createElement('canvas'); canvas.width=1000;canvas.height=1240;
+  const canvas=document.createElement('canvas'); canvas.width=1000;canvas.height=1040;
   const c=canvas.getContext('2d');
-  c.fillStyle='#fff';c.fillRect(0,0,1000,1240);
+  c.fillStyle='#fff';c.fillRect(0,0,1000,1040);
   c.fillStyle='#f02b4b';c.fillRect(0,0,1000,26);
   c.fillStyle='#222';c.font='bold 31px Arial, sans-serif';c.fillText('SOCIAL MEDIA EXPERIMENT',72,113);
   c.font='bold 49px Arial, sans-serif';c.fillText('Memory test result',72,196);
@@ -367,14 +365,13 @@ function createResultPng(r) {
   c.textAlign='center';c.fillText(String(r.memory_correct),279,491);c.fillText(String(r.memory_incorrect),722,491);
   c.font='bold 26px Arial, sans-serif';c.fillText('Correct / 30',279,555);c.fillText('Incorrect / 30',722,555);c.textAlign='left';
   c.fillStyle='#eeeeef';c.fillRect(72,662,856,2);
-  const rows=[['Hits (old posts)',`${r.hits} / 20`],['False alarms (new posts)',`${r.false_alarms} / 10`],['d-prime',r.d_prime.toFixed(2)],['Browsing time',formatDuration(r.browsing_seconds)]];
+  const rows=[['Hits (old posts)',`${r.hits} / 20`],['False alarms (new posts)',`${r.false_alarms} / 10`],['Browsing time',formatDuration(r.browsing_seconds)]];
   rows.forEach(([key,value],i)=>{
-    const y=725+i*93;
+    const y=721+i*93;
     c.fillStyle='#3c3c3c';c.font='26px Arial, sans-serif';c.fillText(key,74,y);
     c.fillStyle='#222';c.textAlign='right';c.font='bold 31px Arial, sans-serif';c.fillText(value,925,y);c.textAlign='left';
-    if(i<3){c.fillStyle='#efeff0';c.fillRect(72,y+33,856,2);}
+    if(i<rows.length-1){c.fillStyle='#efeff0';c.fillRect(72,y+33,856,2);}
   });
-  c.fillStyle='#777';c.font='22px Arial, sans-serif';c.fillText('Result calculated locally on the participant device.',72,1145);
 
   return canvas.toDataURL('image/png');
 }
